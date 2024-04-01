@@ -1,0 +1,137 @@
+/* MAX WIDTH 1200 PX */
+@media (max-width: 75em) {
+  .hero-text-slide {
+    font-size: 3.4rem;
+  }
+}
+
+/* MAX WIDTH 1034 PX */
+@media (max-width: 64.5em) {
+  .hero-summary {
+    max-width: 45%;
+  }
+  .feature-grid-02 {
+    gap: 1rem;
+  }
+}
+
+/* MAX WIDTH 920 PX */
+@media (max-width: 57.5em) {
+  .hero-slide {
+    width: 70rem;
+  }
+  .hero-summary {
+    max-width: 50%;
+  }
+  .heading-h3::after {
+    font-size: 8rem !important;
+  }
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+/* MAX WIDTH 824 PX */
+@media (max-width: 51.5em) {
+  html {
+    font-size: 56.2%;
+  }
+  .nav-list {
+    bottom: 6%;
+  }
+  .feature-grid-02 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-post-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .hero-summary {
+    max-width: 58%;
+  }
+  .dots {
+    bottom: 6rem;
+  }
+  .header {
+    padding: 0 2rem;
+  }
+}
+
+/* MAX WIDTH 628 PX */
+@media (max-width: 39.25em) {
+  .hero-slide {
+    width: 50rem;
+    padding-inline: 2rem;
+  }
+  .testimonial-img {
+    width: 12rem;
+  }
+}
+
+/* MAX WIDTH 528 PX */
+
+@media (max-width: 33em) {
+  html {
+    font-size: 50%;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .heading-h3::after {
+    font-size: 6rem !important;
+    top: -35px !important;
+  }
+  .hero-summary {
+    max-width: 70%;
+  }
+  .hero-slide {
+    width: 48rem;
+    padding-inline: 2rem;
+  }
+}
+
+/* MAX WIDTH 472 PX */
+@media (max-width: 29.5em) {
+  .blog-grid-02 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .last-one {
+    grid-row: 1/-1;
+  }
+}
+/* MAX WIDTH 416 PX */
+@media (max-width: 26em) {
+  .hero-summary {
+    max-width: 80%;
+  }
+  .feature-grid-02 {
+    grid-template-columns: 1fr;
+  }
+  .blog-post-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .nav-list {
+    gap: 2rem;
+  }
+
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* MAX WIDTH 352 PX */
+@media (max-width: 22em) {
+  .hero-summary {
+    max-width: 90%;
+  }
+  .sum-num {
+    font-size: 2rem;
+  }
+  .sum-text {
+    font-size: 1.2rem;
+  }
+  .hero-slide {
+    width: 40rem;
+    margin-bottom: 3rem;
+  }
+}
